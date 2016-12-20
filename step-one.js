@@ -48,7 +48,7 @@ sumZeroToTen(); //55
 function sumArr(arr) {
   var sum = 0;
   for (var i = 0; i < arr.length; i++) {
-    sum += 0;
+    sum += arr[i];
   }
   return sum;
 }
